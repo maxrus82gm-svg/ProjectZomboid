@@ -27,10 +27,14 @@
             "id": "01f7509444b7263c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Задача_агенту.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Задача_агенту"
             }
           }
         ]
@@ -194,6 +198,7 @@
   },
   "active": "01f7509444b7263c",
   "lastOpenFiles": [
+    "Задача_агенту.md",
     "Documentation/Формы_отчётов/БОЛЬШОЙ_БЛОК_ЗАДАЧИ.md",
     "Documentation/Формы_отчётов/МАЛЫЙ_БЛОК_ЗАДАЧИ.md",
     "Documentation/Формы_отчётов/SUBAGENT_REPORT.md",
@@ -203,7 +208,6 @@
     "Documentation/Правила_Git_и_Review.md",
     "Documentation/Список_правил.md",
     "Documentation/00_Паспорт_проекта.md",
-    "Задача_агенту.md",
     "Старт.md",
     "Documentation/Формы_отчётов",
     "Documentation",
