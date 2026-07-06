@@ -5,7 +5,7 @@
 ## Дата проверки
 
 ```text
-2026-07-06 19:00:08 +05:00
+2026-07-06 19:18:42 +05:00
 ```
 
 ## Пути
@@ -30,22 +30,37 @@ G:\SteamLibrary\steamapps\workshop\content\108600
 
 ## Итоги
 
-- Найдено Workshop ID: 56
-- Найдено ModID: 68
-- Скопировано или обновлено при проверочном проходе: 0
+- Найдено Workshop ID: 57
+- Найдено ModID: 70
+- Скопировано или обновлено при проверочном проходе: 1
 - Уже было актуально на сервере: 56
 - Ошибок копирования: 0
+
+## Статус подключения к серверу
+
+- Дата проверки подключения: 2026-07-06 19:23:39 +05:00
+- `StartServer64.bat` найден: да
+- Файл запуска по сети: `\\192.168.0.77\Server\Project Zomboid Dedicated Server\StartServer64.bat`
+- Файл запуска локально на серверной машине: `C:\Server\Project Zomboid Dedicated Server\StartServer64.bat`
+- `servertest.ini` найден: нет
+- Проверенные места: `\\192.168.0.77\Server`, `\\192.168.0.77\Users`, `\\192.168.0.77\c$\Users`
+- Причина: профиль пользователя сервера с `Zomboid\Server\servertest.ini` недоступен по сети из текущей среды.
+- Backup `servertest.ini` создан: нет
+- `WorkshopItems=` применён в `servertest.ini`: нет
+- `Mods=` применён в `servertest.ini`: нет
+- Сервер запускался: нет
+- Сервер останавливался: нет
 
 ## WorkshopItems
 
 ```text
-WorkshopItems=498441420;533833878;926315905;1551818411;1576361194;1962761540;2056238799;2064137012;2081538550;2110771295;2142622992;2618566294;2642070841;2734855468;2753086629;2757712197;2875848298;2948824747;2950902979;2984301200;3038695235;3141640932;3146046428;3149109194;3261334016;3281755175;3378285185;3378304610;3386498516;3388017161;3389605231;3390487814;3392356751;3392745472;3395171770;3396542795;3406392630;3410989950;3423660713;3425287730;3429176285;3436499337;3437629766;3461263912;3495906499;3508537032;3546314080;3567084868;3575895484;3591960030;3597673472;3610005735;3617732907;3624971238;3663239580;3684808606
+WorkshopItems=498441420;533833878;926315905;1551818411;1576361194;1962761540;2056238799;2064137012;2081538550;2110771295;2142622992;2618566294;2642070841;2734855468;2753086629;2757712197;2875848298;2948824747;2950902979;2984301200;3038695235;3141640932;3146046428;3149109194;3261334016;3281755175;3378285185;3378304610;3386498516;3388017161;3389605231;3390487814;3392356751;3392745472;3395171770;3396542795;3406392630;3410989950;3423660713;3425287730;3429176285;3436499337;3436537035;3437629766;3461263912;3495906499;3508537032;3546314080;3567084868;3575895484;3591960030;3597673472;3610005735;3617732907;3624971238;3663239580;3684808606
 ```
 
 ## Mods
 
 ```text
-Mods=Hydrocraft;ALICE;svgMCerdato;ORGMAmmoCrafting;curevirus41;ArmoredVestsPatch;ArmoredVests;LockpickingOnly;ZIL130PACK2;Waistbags;RepairAnyClothes;RepairAnyMod;MattSimpleAddonsFriuts;PrepperEquipment;GlassRepair;survivingthroughseasons;VehicleSalvageOverhaulB42;VehicleRepairOverhaul;BB_CommonSense;RiskyInspectWeapon;EQUIPMENT_UI;RACNewVersion;Immersive horror overlays;BirgetPMClothingCorrection;BirgetFemaleBodyModel;PlumbHelp;BirgetMaleBodyModel;rope-towing;VanillaVehiclesAnimated;VanillaVehiclesAnimated_SVU;VVA_cullseats;VVA_PikamyDelight;VVA_slowdoors;VVA_snapDoors;VVA_transparentWindows;StarlitLibrary;RepairableWindows;KAMER_WallHealth_b42;BecomeDesensitizedB42;TchernoLib;DEON_CVG;WhatCanICraft_Addon;BoredomTweaks;moodlesinlua;DeonReloadingBench;DeonART_RFGP;SKITTLE_LongTermPreservation;TrueCrawl;ModLoadOrderSorter_b42;B42RainsFirearmsAndGunParts-RU;campintherain_42.13;campintherain;VMZNEW;CleanUI;CleanHotBar;SurvivalHUD;NeatUI_Framework;Waterpipes;ModManager;Ivmakk_CleanUIExtension;INSWEARUS;LongTermPreservationExtended;LongTermPreservationExtendedUI;AliceGear;ItemInspectionUI;YAPZLib;cleanblood;RepairWallCracks_B42
+Mods=Hydrocraft;ALICE;svgMCerdato;ORGMAmmoCrafting;curevirus41;ArmoredVestsPatch;ArmoredVests;LockpickingOnly;ZIL130PACK2;Waistbags;RepairAnyClothes;RepairAnyMod;MattSimpleAddonsFriuts;PrepperEquipment;GlassRepair;survivingthroughseasons;VehicleSalvageOverhaulB42;VehicleRepairOverhaul;BB_CommonSense;RiskyInspectWeapon;EQUIPMENT_UI;RACNewVersion;Immersive horror overlays;BirgetPMClothingCorrection;BirgetFemaleBodyModel;PlumbHelp;BirgetMaleBodyModel;rope-towing;VanillaVehiclesAnimated;VanillaVehiclesAnimated_SVU;VVA_cullseats;VVA_PikamyDelight;VVA_slowdoors;VVA_snapDoors;VVA_transparentWindows;StarlitLibrary;RepairableWindows;KAMER_WallHealth_b42;BecomeDesensitizedB42;TchernoLib;DEON_CVG;WhatCanICraft_Addon;BoredomTweaks;moodlesinlua;DeonReloadingBench;DeonART_RFGP;SKITTLE_LongTermPreservation;TrueCrawl;ModLoadOrderSorter_b42;B42RainsFirearmsAndGunParts-RU;campintherain_42.13;campintherain;VMZNEW;UsefulBarrels;UsefulBarrelsMP;CleanUI;CleanHotBar;SurvivalHUD;NeatUI_Framework;Waterpipes;ModManager;Ivmakk_CleanUIExtension;INSWEARUS;LongTermPreservationExtended;LongTermPreservationExtendedUI;AliceGear;ItemInspectionUI;YAPZLib;cleanblood;RepairWallCracks_B42
 ```
 
 ## Таблица соответствий
@@ -94,6 +109,7 @@ Mods=Hydrocraft;ALICE;svgMCerdato;ORGMAmmoCrafting;curevirus41;ArmoredVestsPatch
 | 3425287730 | G:\SteamLibrary\steamapps\workshop\content\108600\3425287730 | B42RainsFirearmsAndGunParts-RU | да | уже было |
 | 3429176285 | G:\SteamLibrary\steamapps\workshop\content\108600\3429176285 | campintherain_42.13;campintherain | да | уже было |
 | 3436499337 | G:\SteamLibrary\steamapps\workshop\content\108600\3436499337 | VMZNEW | да | уже было |
+| 3436537035 | G:\SteamLibrary\steamapps\workshop\content\108600\3436537035 | UsefulBarrels;UsefulBarrelsMP | да | да |
 | 3437629766 | G:\SteamLibrary\steamapps\workshop\content\108600\3437629766 | CleanUI | да | уже было |
 | 3461263912 | G:\SteamLibrary\steamapps\workshop\content\108600\3461263912 | CleanHotBar | да | уже было |
 | 3495906499 | G:\SteamLibrary\steamapps\workshop\content\108600\3495906499 | SurvivalHUD | да | уже было |
