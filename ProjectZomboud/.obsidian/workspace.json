@@ -6,6 +6,7 @@
       {
         "id": "b46470f4406a2292",
         "type": "tabs",
+        "dimension": 21.796028880866423,
         "children": [
           {
             "id": "870faea60ff147a0",
@@ -22,15 +23,20 @@
       {
         "id": "12efca8af0f61daf",
         "type": "tabs",
+        "dimension": 78.20397111913357,
         "children": [
           {
             "id": "01f7509444b7263c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Задача_агенту.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Задача_агенту"
             }
           }
         ]
@@ -194,6 +200,8 @@
   },
   "active": "01f7509444b7263c",
   "lastOpenFiles": [
+    "Documentation/Правила_сервера_Project_Zomboid.md",
+    "Documentation/Список_модов_Project_Zomboid.md",
     "Задача_агенту.md",
     "Documentation/Формы_отчётов/БОЛЬШОЙ_БЛОК_ЗАДАЧИ.md",
     "Documentation/Формы_отчётов/МАЛЫЙ_БЛОК_ЗАДАЧИ.md",
