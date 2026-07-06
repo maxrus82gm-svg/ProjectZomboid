@@ -52,6 +52,40 @@ C:\Server\Project Zomboid Dedicated Server\steamapps\workshop\content\108600
 - `Mods=` собирается из строк `id=` внутри `mod.info`.
 - Если в одном Workshop ID несколько файлов `mod.info`, нужно учитывать все найденные ModID.
 
+## Порядок обновления списка модов
+
+Источник для обновления списка модов - локальная Workshop-папка рабочей машины:
+
+```text
+G:\SteamLibrary\steamapps\workshop\content\108600
+```
+
+Каждая цифровая папка внутри источника - это Workshop ID. Эти ID записываются в строку `WorkshopItems=` через `;`.
+
+ModID берутся только из строк `id=` во всех найденных файлах `mod.info` внутри соответствующих Workshop ID. Эти значения записываются в строку `Mods=` через `;`.
+
+Актуальный список для копирования и вставки хранится здесь:
+
+```text
+M:\GitHub\ProjectZomboid\ProjectZomboud\Documentation\Список_модов_Project_Zomboid.md
+```
+
+Workshop-папки копируются на сервер только сюда:
+
+```text
+\\192.168.0.77\Server\Project Zomboid Dedicated Server\steamapps\workshop\content\108600
+```
+
+Готовые строки `WorkshopItems=` и `Mods=` из списка модов вставляются только в основной конфиг:
+
+```text
+\\192.168.0.77\ZomboidServerConfig\servertest.ini
+```
+
+Перед вставкой в `servertest.ini` обязательно сделать backup рядом с файлом и сохранить исходную кодировку конфига.
+
+Если мод добавлен в подписки Steam, но его цифровой папки ещё нет в локальном источнике, не добавлять этот мод в `WorkshopItems=` и `Mods=` до фактической загрузки Workshop-файлов.
+
 ## Запуск и основной конфиг сервера
 
 Основной файл запуска dedicated server по сети:
