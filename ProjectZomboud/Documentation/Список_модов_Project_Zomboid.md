@@ -38,16 +38,20 @@ G:\SteamLibrary\steamapps\workshop\content\108600
 
 ## Статус подключения к серверу
 
-- Дата проверки подключения: 2026-07-06 19:23:39 +05:00
+- Дата проверки подключения: 2026-07-06 20:52:16 +05:00
 - `StartServer64.bat` найден: да
 - Файл запуска по сети: `\\192.168.0.77\Server\Project Zomboid Dedicated Server\StartServer64.bat`
 - Файл запуска локально на серверной машине: `C:\Server\Project Zomboid Dedicated Server\StartServer64.bat`
+- SHA256 `StartServer64.bat`: `1C3FEF0A65F56E1A0D75BB376822D3BACABA5CBAB05B10C0E269E4521B0A0953`
 - `servertest.ini` найден: нет
-- Проверенные места: `\\192.168.0.77\Server`, `\\192.168.0.77\Users`, `\\192.168.0.77\c$\Users`
-- Причина: профиль пользователя сервера с `Zomboid\Server\servertest.ini` недоступен по сети из текущей среды.
+- Ожидаемый путь на серверной машине: `C:\Users\silver\Zomboid\Server\servertest.ini`
+- Проверенные места: `C:\Users\silver\Zomboid\Server\servertest.ini`, `\\192.168.0.77\Server`, `\\192.168.0.77\Users\silver\Zomboid\Server\servertest.ini`, `\\192.168.0.77\c$\Users\silver\Zomboid\Server\servertest.ini`
+- Причина: текущая среда не является серверной машиной, а профиль пользователя `silver` с `Zomboid\Server\servertest.ini` недоступен по сети; доступ к `\\192.168.0.77\c$` запрещён.
 - Backup `servertest.ini` создан: нет
 - `WorkshopItems=` применён в `servertest.ini`: нет
 - `Mods=` применён в `servertest.ini`: нет
+- Серверная Workshop-папка проверена: да
+- Workshop ID в серверной Workshop-папке: 57
 - Сервер запускался: нет
 - Сервер останавливался: нет
 

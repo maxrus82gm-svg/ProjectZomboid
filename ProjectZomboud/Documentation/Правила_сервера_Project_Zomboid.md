@@ -74,6 +74,12 @@ C:\Server\Project Zomboid Dedicated Server\StartServer64.bat
 C:\Users\<имя_пользователя>\Zomboid\Server\servertest.ini
 ```
 
+Для текущего сервера после первого запуска ожидаемый основной конфиг:
+
+```text
+C:\Users\silver\Zomboid\Server\servertest.ini
+```
+
 При работе с рабочей машины нужен доступный сетевой путь к этому профилю. Если профиль сервера недоступен по сети, не выдумывать путь и не менять случайные файлы.
 
 В `servertest.ini` подключаются Workshop-моды через строки:
