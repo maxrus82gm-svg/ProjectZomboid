@@ -6,33 +6,19 @@
       {
         "id": "b46470f4406a2292",
         "type": "tabs",
-        "dimension": 21.796028880866423,
         "children": [
           {
             "id": "870faea60ff147a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Documentation/Список_модов_Project_Zomboid.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
-            }
-          }
-        ]
-      },
-      {
-        "id": "12efca8af0f61daf",
-        "type": "tabs",
-        "dimension": 78.20397111913357,
-        "children": [
-          {
-            "id": "01f7509444b7263c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "title": "Список_модов_Project_Zomboid"
             }
           }
         ]
@@ -194,16 +180,20 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "01f7509444b7263c",
+  "active": "870faea60ff147a0",
   "lastOpenFiles": [
-    "Задача_агенту.md",
+    "Documentation/Серверные настройки.md.backup_20260707_153721",
+    "Documentation/Серверные настройки.md.backup_20260707_152424",
     "Documentation/Правила_сервера_Project_Zomboid.md",
+    "Старт.md.backup_20260707_151651",
+    "Documentation/Серверные настройки.md",
+    "Documentation/Формы_отчётов/AGENT_REPORT.md",
+    "Задача_агенту.md",
     "Documentation/Список_модов_Project_Zomboid.md",
     "Documentation/Формы_отчётов/БОЛЬШОЙ_БЛОК_ЗАДАЧИ.md",
     "Documentation/Формы_отчётов/МАЛЫЙ_БЛОК_ЗАДАЧИ.md",
     "Documentation/Формы_отчётов/SUBAGENT_REPORT.md",
     "Documentation/Формы_отчётов/REVIEW_REPORT.md",
-    "Documentation/Формы_отчётов/AGENT_REPORT.md",
     "Documentation/Правила_создания_документов.md",
     "Documentation/Правила_Git_и_Review.md",
     "Documentation/Список_правил.md",

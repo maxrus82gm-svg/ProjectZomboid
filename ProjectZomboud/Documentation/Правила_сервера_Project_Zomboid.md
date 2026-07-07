@@ -2,6 +2,8 @@
 
 Документ фиксирует правила безопасной работы с dedicated server Project Zomboid, Workshop-модами и путями сервера.
 
+Короткая человеческая памятка по тому, где править моды и стартовые предметы: [[Серверные настройки]].
+
 ## Пути сервера и локального источника модов
 
 Локальный источник Workshop-модов на рабочей машине:
@@ -79,7 +81,7 @@ Workshop-папки копируются на сервер только сюда
 Готовые строки `WorkshopItems=` и `Mods=` из списка модов вставляются только в основной конфиг:
 
 ```text
-\\192.168.0.77\ZomboidServerConfig\servertest.ini
+\\192.168.0.77\Zomboid\Server\servertest.ini
 ```
 
 Перед вставкой в `servertest.ini` обязательно сделать backup рядом с файлом и сохранить исходную кодировку конфига.
@@ -117,7 +119,7 @@ C:\Users\silver\Zomboid\Server\servertest.ini
 Актуальный сетевой путь, открытый для правки основного конфига с рабочей машины:
 
 ```text
-\\192.168.0.77\ZomboidServerConfig\servertest.ini
+\\192.168.0.77\Zomboid\Server\servertest.ini
 ```
 
 Для изменения `servertest.ini` в текущей рабочей схеме использовать именно этот сетевой путь.
@@ -148,7 +150,7 @@ C:\Users\silver\Zomboid\Server\servertest.ini
 и его текущего сетевого пути для правки:
 
 ```text
-\\192.168.0.77\ZomboidServerConfig\servertest.ini
+\\192.168.0.77\Zomboid\Server\servertest.ini
 ```
 
 Перед любым изменением `servertest.ini` обязательно:
